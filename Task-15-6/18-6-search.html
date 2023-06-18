@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <!-- action="/Ahmad.php"  //// where to send the form-data when a form is submitted.-->
+    <form   method="get" action="/Ahmad.php"  >
+      <!-- المعلومات بتنبعث كجزء من url -->
+      <!-- method="post" -->
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Ahmad"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" placeholder="Altamimi"><br>
+      <label >Phone</label> <br>
+        <input type="tel"  name="number" value="+962"> <br>
+        <label for="pass">Password</label> <br>
+        <input type="password" name="password" id="pass"> <br> 
+        <label for="swiming">swiming</label>
+        <input type="checkbox" name="swiming" id="swiming" >
+        <label for="video game">video game</label>
+        <input type="checkbox" name="video game" id="video game" > <br> <br>
+        <input type="radio" name="radio" id="m" >
+        <label for="m">Male</label>
+        <input type="radio" name="radio" id="s">
+        <label for="f">Female</label> <br> <br>
+        <textarea name="area" id="area" cols="30" rows="10" aria-placeholder="tell us"></textarea><br> <br>
+        <input type="submit" value="Submit">    
+        <input type="reset" value="Clear All">
+      </form> 
+      <p>------------------------------------</p>
+      <!-- media -->
+      <audio controls loop muted>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+      </audio>
+      <video width="320" height="240" controls  autoplay muted>
+        <source src="../1 Minute Timer.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video><br><iframe width="560" height="315" src="https://www.youtube.com/embed/31dNMKi7guM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+      <br> 
+     <p> semantic elements Clearly defines its content </p> <br>1
+      <img src="../img_sem_elements.gif" alt="HTML layout" sizes="" srcset="">
+      
+      <header>Header</header>
+      <nav>navigation Links</nav>
+      <aside>said bar</aside>
+</body>
+</html>
