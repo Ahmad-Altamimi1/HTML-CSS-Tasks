@@ -2,51 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="test.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>exercise #2 - display</title>
+    <style>
+        .card1 {
+            border: 1px solid black;
+            display: inline-block;
+            width: 220px;
+            height: 500px;
+            vertical-align: 207px;
+        }
+        .card1 img {
+            width: 220px;
+            display: block;
+        }
+        .card1 h2 {
+            display: block;
+            margin: 0;
+            padding:9px 0px 9px 18px;
+        }
+        .card1 p{
+            font-size: 18px;
+            padding-left: 15px;
+        }
+        .card2 {
+            display: inline-block;
+            border: 1px solid black;
+            width: 220px;
+            height: 500px;
+            margin-left: 30px;
+        }
+        .card2 img {
+            width: 220px;
+            display: block;
+        }
+        .card2 h2 {
+            display: block;
+            margin: 0;
+            padding:9px 0px 9px 18px;
+        }
+        .card2 p {
+            font-size: 18px;
+            padding-left: 15px;
+        }
+        .card2 footer {
+            background-color: #333;
+            color: white;
+            font-size: 15px;
+            padding: 10px;
+            margin-top: 264px;
+        }
+        .card3 {
+            display: inline-block;
+            border: 1px solid black;
+            width: 220px;
+            height: 500px;
+            margin-left: 30px;
+        }
+        .card3 img {
+            width: 220px;
+            display: block;
+        }
+        .card3 h2 {
+            display: block;
+            margin: 0;
+            padding:9px 0px 9px 18px;
+        }
+        .card3 p {
+            font-size: 18px;
+            padding-left: 15px;
+        }
+        .card3 footer {
+            background-color: #333;
+            color: white;
+            font-size: 15px;
+            padding: 10px;
+            margin-top: 132px;
+        }
+    </style>
 </head>
 <body>
-    <nav> <ol>
-        <li> you need help?</li>
-       
-    </ol></nav>
-<p class="Lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta dignissimos porro! Asperiores doloribus mollitia sequi rem repudiandae molestiae expedita sunt vel ipsum, excepturi assumenda rerum quas minima pariatur deleniti.
-
-</p>
-
-
-</div>
-<div class="display">
-    <p>p1</p>
-    <p>p2</p>
-    <p>p3</p>
-    <p>p4</p>
-</div>
-<table>
-    <tr>
-        <td>ROW1,COL1</td>
-        <td>ROW1,COL2</td>
-        <td>ROW1,COL3</td>
-    </tr>
-</table>
-<div class="grid">
-    <p>grid 1</p>
-    <p>grid 2</p>
-    <p>grid 3</p>
-    <p>grid 4</p>
-    <p>grid 5</p>
-    <p>grid 6</p>
-    <p>grid 7</p>
-    <p>grid 8</p>
-    <p>grid 9</p>
-</div>
-<div class="relative">
-    <p class="absolute"></p>
-</div>
-<p> ahmad altamimi </p>
-<div>
-<span class="float">ahmad</span>
-<span>ali</span>
+        <div class="card1">
+            <h2>A short heading</h2>
+            <img src="aerostat.jpg" alt="aerostat">
+            <p>The idea of reaching the <br> North Pole by means of <br> balloons appears to have <br> been entertained many <br> years ago.</p>
+        </div>
+        <div class="card2">
+            <h2>A short heading</h2>
+            <img src="aerostat.jpg" alt="aerostat">
+            <p>Short content.</p>
+            <footer>I have a footer!</footer>
+        </div>
+        <div class="card3">
+            <h2>A longer heading in this card</h2>
+            <img src="aerostat.jpg" alt="aerostat">
+            <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a suggestion for reaching the North Pole by an aerostat.</p>
+            <footer>I have a footer!</footer>
+        </div>
 </body>
 </html>
