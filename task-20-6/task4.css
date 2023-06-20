@@ -1,0 +1,32 @@
+div{
+
+    border: 4px dotted ;
+    width: fit-content;
+}
+p{
+    margin-top: 50px;
+
+}
+span{
+    display: inline-block;
+    background-color: red;
+    height: 80px;
+    width: 80px;
+
+}
+.two{
+   background-color:  green;
+}
+.relative{
+    position: relative; 
+    top: 15px;
+    left: 15px;
+}
+div:last-of-type{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    left: 12px;
+    bottom: -10px;
+}
