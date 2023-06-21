@@ -1,0 +1,42 @@
+.flex{
+   border: 4px solid orange;
+   display: flex;
+   height: 500px;
+   justify-content: stretch;
+}
+.flex div{
+width: 100%;
+font-size: 60px;
+text-align: center;
+color: white;
+}
+.one{
+    background-color: green;
+}
+.two{
+background-color: yellow;
+}
+.three{
+    background-color:rgb(150, 6, 167);
+}
+.four{
+    background-color: rgb(148, 153, 158);
+}
+.five{
+    background-color: blue;
+}
+.six{
+    background-color: orange;
+
+}
+.seven{
+    background-color: pink;
+}
+.eight{
+    background-color:red ;
+
+}
+.nine{
+    background-color: brown;
+
+}

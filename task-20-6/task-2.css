@@ -8,7 +8,7 @@ div{
     height: 500px;
     display: inline-block;
     margin: 30px 2% 0 3%;
-    width: calc(80% /3);
+    width: calc(82% /3);
     vertical-align: top;
     word-break: break-all;
     position: relative;
@@ -21,7 +21,7 @@ img{
     margin-top: 20px;
 
 }
-.lorem{
+.text{
     padding:50px 7px 0;
 }
 .footer {

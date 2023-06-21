@@ -42,6 +42,7 @@ margin-left: 10px;
     border: 6px solid aqua;
     width: 200px;
     height: 300px;
+    justify-content: space-between;
 }
 .absolute {
     position: absolute;
