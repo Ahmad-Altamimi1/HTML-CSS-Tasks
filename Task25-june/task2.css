@@ -1,10 +1,11 @@
 div{
     width: 150px;
     height: 150px;
-    background: linear-gradient(to bottom, green,blue);
+    /* background: linear-gradient(to bottom, green,blue); */
+    background-color: green;
     border-radius: 30px;
-    animation: circle 9s ease-out infinite ;
-    transform: translate(369% ,10px);
+    /* animation: circle 9s ease-out infinite ; */
+
     animation-fill-mode: backwards;
    
 
@@ -13,38 +14,60 @@ div{
 @keyframes circle {
     0%{
         transform: translate(369% ,10px);
+    background: linear-gradient(to bottom, green,blue);
+
 
     }
     20%{
     background: linear-gradient(to bottom, rgb(16, 208, 225),blue);
        transform: translate(369% ,227%);
+       opacity: 1;
+
     }
     55%{
     background: linear-gradient(to bottom, blue,yellow);
-    transform: translate(20% ,227%);}
+    transform: translate(20% ,227%);
+    opacity: 1;
+}
+ 
+
 60%{
     background: linear-gradient(to bottom, yellow,orange);  
     transform: translate(0% ,227%);
+    opacity: 1;
+
 }
 
 72%{
     background: linear-gradient(to bottom,orange, brown);  
     transform: translate(0% ,0%);
 
+    opacity: 1;
 
 }
 
 92%{
     background: linear-gradient(to bottom,brown, green);  
     transform: translate(90% ,10px);
+    transition: 0;
+    opacity: 1;
+
 
 }
+93.9%{
+    /* opacity: 0; */
+    background-color: white;
+}
 
-    
+    94%{
+        opacity: 1;
+        transform: translate(200% ,10px);
+        background: linear-gradient(to bottom,green, green);
+    }
     100%{
-    transform: translate(90% ,10px);
-
-    background: linear-gradient(to bottom,brown, green);  
+        opacity: 1;
+    transform: translate(200% ,10px);
+    background: linear-gradient(to bottom,green, green);  
 
     }
 }
