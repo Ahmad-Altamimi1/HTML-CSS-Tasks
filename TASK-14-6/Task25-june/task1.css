@@ -1,0 +1,24 @@
+div{
+    width: 200px;
+    height: 150px;
+
+}
+.div1{
+    background-color: blue;
+transition: width 3s;
+transition-timing-function: ease-in;
+
+}
+.div1:hover{
+    width: 400px;
+}
+.div2{
+    background-color: pink;
+    transition: width 2s , height 2s;
+    transition-timing-function: ease-in;
+
+}
+.div2:hover{
+    width: 400px;
+    height: 400px;
+}

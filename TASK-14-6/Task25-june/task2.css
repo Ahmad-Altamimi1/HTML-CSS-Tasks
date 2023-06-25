@@ -1,0 +1,50 @@
+div{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, green,blue);
+    border-radius: 30px;
+    animation: circle 9s ease-out infinite ;
+    transform: translate(369% ,10px);
+    animation-fill-mode: backwards;
+   
+
+}
+/* direction fill-mode */
+@keyframes circle {
+    0%{
+        transform: translate(369% ,10px);
+
+    }
+    20%{
+    background: linear-gradient(to bottom, rgb(16, 208, 225),blue);
+       transform: translate(369% ,227%);
+    }
+    55%{
+    background: linear-gradient(to bottom, blue,yellow);
+    transform: translate(20% ,227%);}
+60%{
+    background: linear-gradient(to bottom, yellow,orange);  
+    transform: translate(0% ,227%);
+}
+
+72%{
+    background: linear-gradient(to bottom,orange, brown);  
+    transform: translate(0% ,0%);
+
+
+}
+
+92%{
+    background: linear-gradient(to bottom,brown, green);  
+    transform: translate(90% ,10px);
+
+}
+
+    
+    100%{
+    transform: translate(90% ,10px);
+
+    background: linear-gradient(to bottom,brown, green);  
+
+    }
+}
